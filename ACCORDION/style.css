@@ -41,15 +41,14 @@ h1 {
 
 .accordion{
   max-width: 700px;
-  margin: auto;
- 
+  margin: auto; 
 }
 
 .accordion_item {
   border: 1px solid rgb(255, 0, 85);
   padding: 20px;
   border-radius: 2rem;
-  margin-top: 1rem;
+  margin-top: 1rem;   
 }
 
 .accordion_title{
