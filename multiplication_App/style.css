@@ -1,0 +1,48 @@
+
+body {
+    background-color: gray;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    text-align: center;
+    font-family: cursive;
+}
+.form {
+    background-color: slategrey;
+    padding: 12px;
+    border-radius: 13px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, .3);
+    margin: 10px;
+}
+.input {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    font-size: 25px;
+    text-align: center;
+    outline: none;
+    border-radius: 13px;
+    border: slategray;
+    padding: 10px;    
+}
+.btn{
+    margin-top: 20px;
+    border-radius: 13px;
+    border: slategray;
+    padding: 10px;    
+    font-family: cursive;    
+    font-weight: 900;
+    cursor: pointer;
+}
+.btn:active
+{
+    background-color: rgb(151, 170, 189);
+    opacity: 80%;
+}
+.score{
+    color: white;
+    font-size: 20px;
+    text-align: right;
+}
