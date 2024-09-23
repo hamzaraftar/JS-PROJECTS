@@ -1,0 +1,39 @@
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: salmon;
+    font-family: cursive;
+}
+.container {
+    background-color: lightpink;
+    width:400px ;
+    padding: 20px;
+    margin: 5px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, .3);
+}
+
+#textarea{
+    resize: none;
+    width: 100%;
+    outline: none;
+    height: 100px;
+    font-size: 18px;
+    font-family: sans-serif;
+    padding: 10px;
+    border: none;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+#textarea:focus{
+    border: 3px solid rgb(124, 123, 123);  
+}
+
+.counter_counter{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 5px;
+}
