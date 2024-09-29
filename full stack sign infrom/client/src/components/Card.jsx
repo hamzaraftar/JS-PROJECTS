@@ -9,10 +9,10 @@ const Card = () => {
     password:""
   })
 
-  async function handleSubmit(e)
+  async function handleSubmit(event)
   {
-    e.preventDefault();
-    console.log(value);
+    event.preventDefault()
+    
     try {
       const res = await fetch("http://localhost:5000/user_auth", {
         method: "POST",
