@@ -1,4 +1,5 @@
 // This ... is rest operator
+// This ... is also spread operator
 function sum(name, ...args) {
   // console.log(`Hello ${name} :`);
   let sum = 0;
