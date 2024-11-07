@@ -1,1 +1,1 @@
-print('hamza asghar')
+print("hamza" + "  " + "asghar")
